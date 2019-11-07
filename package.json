@@ -1,8 +1,8 @@
 {
   "name": "react-native-device-security",
   "title": "React Native Device Security",
-  "version": "1.0.0",
-  "description": "TODO",
+  "version": "1.0.1",
+  "description": "React Native package for get device security information like developer mode is enabled, etc",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,11 +13,14 @@
     "baseUrl": "https://github.com/github_account/react-native-device-security"
   },
   "keywords": [
-    "react-native"
+    "react-native",
+    "device security",
+    "device rooted",
+    "adb enabled"
   ],
   "author": {
-    "name": "Your Name",
-    "email": "yourname@email.com"
+    "name": "Majid Lotfinia",
+    "email": "majidlotfinia12@gmail.com"
   },
   "license": "MIT",
   "licenseFilename": "LICENSE",
