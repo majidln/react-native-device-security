@@ -24,4 +24,14 @@ public class DeviceSecurityModule extends ReactContextBaseJavaModule {
         // TODO: Implement some actually useful functionality
         callback.invoke("Received numberArgument: " + numberArgument + " stringArgument: " + stringArgument);
     }
+
+    @ReactMethod
+    public void isAdbEnabled(Promise promise) {
+        int adb = 0;
+        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.JELLY_BEAN_MR1) {
+            adb = Settings.Global.getInt(getCurrentActivity().getContentResolver(),
+                    Settings.Global.ADB_ENABLED, 0);
+        }
+        promise.resolve(adb == 1);
+    }
 }
