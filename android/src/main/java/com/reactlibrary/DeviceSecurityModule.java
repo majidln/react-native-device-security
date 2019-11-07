@@ -1,9 +1,11 @@
 package com.reactlibrary;
 
+import com.facebook.react.bridge.Promise;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.Callback;
+import android.provider.Settings;
 
 public class DeviceSecurityModule extends ReactContextBaseJavaModule {
 
