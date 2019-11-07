@@ -1,7 +1,7 @@
 {
   "name": "react-native-device-security",
   "title": "React Native Device Security",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React Native package for get device security information like developer mode is enabled, etc",
   "main": "index.js",
   "scripts": {
