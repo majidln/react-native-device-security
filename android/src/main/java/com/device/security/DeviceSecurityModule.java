@@ -1,4 +1,4 @@
-package com.reactlibrary;
+package com.device.security;
 
 import com.facebook.react.bridge.Promise;
 import com.facebook.react.bridge.ReactApplicationContext;

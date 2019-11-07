@@ -1,9 +1,10 @@
-package com.reactlibrary;
+package com.device.security;
 
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
+import com.device.security.DeviceSecurityModule;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.NativeModule;
 import com.facebook.react.bridge.ReactApplicationContext;
